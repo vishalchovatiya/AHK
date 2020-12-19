@@ -1,0 +1,81 @@
+#SingleInstance,Force
+
+::u::you
+::i::I
+::idk::I don't know
+::r::are
+::tq::Thanks
+::cyp::Can you please ?{left 2}
+::aiot::Any idea on this?
+
+::bcoz::because,
+
+::aka::also known as
+
+::br::BR,{Enter}Vishal Chovatiya
+::heym::Hi ,{Enter}{Enter}{Enter}BR,{Enter}Vishal Chovatiya{left 25}
+
+::ttl::In middle of something, will talk to you soon
+::mttl::In meeting, will come back to you soon
+
+::myimail::vishal.chovatiya@infineon.com
+::mygmail::visheshchovatiya@gmail.com
+::myymail::vishalchovatiya@ymail.com
+::myhotmail::vishalchovatiya@hotmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
