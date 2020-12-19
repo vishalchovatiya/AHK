@@ -1,16 +1,20 @@
 #SingleInstance,Forces
 
-Ctrl & d:: ; Ctrl + Shift + d
+#IfWinNotActive ahk_exe Code.exe ; Run everywhere except on vscode
+Ctrl & d:: CheckForShift() ; Ctrl + Shift + d
+#IfWinNotActive
+
+CheckForShift()
+{
     if GetKeyState("Shift") ; Check if Shift is pressed
     {
-        #IfWinNotActive ahk_exe Code.exe ; Run everywhere except on vscode
             Duplicate()
     }
     Else
     {
         Send ^d
     }
-return
+}
 
 Duplicate()
 {
@@ -35,5 +39,5 @@ GetSelection(timeoutSeconds := 0.5)
     Clipboard := "" ; Clear clipboard for ClipWait to function.
     Send ^c ; Send Ctrl+C to get selection on clipboard.
     ClipWait %timeoutSeconds% ; Wait for the copied text to arrive at the clipboard. 
-return Clipboard
+    return Clipboard
 }
