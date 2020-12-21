@@ -166,10 +166,6 @@ Return
 If A_EndChar = %LastChar%
     WordMenu(11,"disagreement,inequity,contrast,dissimilarity,incompatibility")
 Return
-:B0:do::
-If A_EndChar = %LastChar%
-    WordMenu(3,"execute,enact,carry out,finish,conclude,effect,accomplish,achieve,attain")
-Return
 
 :B0:dull::
 If A_EndChar = %LastChar%
