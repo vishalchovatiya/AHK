@@ -1,8 +1,3 @@
-#SingleInstance, Force
-SendMode Input
-SetWorkingDir, %A_ScriptDir%
-
-
 GetSelection(timeoutSeconds := 0.5)
 {
     Clipboard := "" ; Clear clipboard for ClipWait to function.

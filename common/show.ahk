@@ -2,9 +2,10 @@
 
 ; Sample use case 
 ;
-; $#O::Show_Start("- Outlook", "C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE")
+; $#O::ShowApp("- Outlook", "C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE")
+; $#C::ShowDir("C:\")
 
-Show_Start(title, exe, params = "", toggle = 0)
+ShowApp(title, exe, params = "", toggle = 0)
 {
 	If WinActive(title) and toggle
     {
@@ -32,4 +33,18 @@ Show_Start(title, exe, params = "", toggle = 0)
             WinActivate
 		}
 	}
+}
+
+ShowDir(fullpath)
+{
+	SetTitleMatchMode, 3
+	SplitPath, fullpath, title, dir
+	IfWinExist, %title% ahk_class CabinetWClass
+		WinActivate
+	Else
+	{
+		Run, %fullpath%
+		WinActivate
+	}
+	SetTitleMatchMode, 2
 }
