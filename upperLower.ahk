@@ -1,4 +1,11 @@
 #Include %A_ScriptDir%\common\common.ahk
+
+
+#SingleInstance, Force
+SendMode Input
+SetWorkingDir, %A_ScriptDir%
+
+
 #If GetKeyState("Capslock", "P")
 
 $Up:: ; Convert text to upper

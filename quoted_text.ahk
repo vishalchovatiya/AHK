@@ -1,6 +1,10 @@
 #Include %A_ScriptDir%\common\common.ahk
 
 
+#SingleInstance, Force
+SendMode Input
+SetWorkingDir, %A_ScriptDir%
+
 $^+q::QuoteSelection() ; Ctrl+Shift+Q
 
 QuoteSelection()

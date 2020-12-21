@@ -1,5 +1,9 @@
 #Include %A_ScriptDir%\common\common.ahk
 
+#SingleInstance, Force
+SendMode Input
+SetWorkingDir, %A_ScriptDir%
+
 #IfWinNotActive ahk_exe Code.exe ; Run everywhere except on vscode
 Ctrl & d:: CheckForShift() ; Ctrl + Shift + d
 #IfWinNotActive
