@@ -1,4 +1,4 @@
-#SingleInstance,Forces
+#Include %A_ScriptDir%\common\common.ahk
 
 #IfWinNotActive ahk_exe Code.exe ; Run everywhere except on vscode
 Ctrl & d:: CheckForShift() ; Ctrl + Shift + d
@@ -34,10 +34,3 @@ CopyPasteLine()
     Send {End}{Enter}%Clipboard% ; Paste Clipboard in next line
 }
 
-GetSelection(timeoutSeconds := 0.5)
-{
-    Clipboard := "" ; Clear clipboard for ClipWait to function.
-    Send ^c ; Send Ctrl+C to get selection on clipboard.
-    ClipWait %timeoutSeconds% ; Wait for the copied text to arrive at the clipboard. 
-    return Clipboard
-}
