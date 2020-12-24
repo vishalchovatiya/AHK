@@ -1,4 +1,4 @@
-#Include %A_ScriptDir%\common\common.ahk
+#Include %A_ScriptDir%\common\editor.ahk
 
 
 #SingleInstance, Force
