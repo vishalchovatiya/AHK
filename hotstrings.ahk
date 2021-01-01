@@ -1,5 +1,9 @@
 #SingleInstance,Force
+#Include %A_ScriptDir%\confidential.ahk
 
+
+
+::ahk::AutoHotkey
 ::u::you
 ::i::I
 ::idk::I don't know
@@ -22,60 +26,6 @@
 ::mygmail::visheshchovatiya@gmail.com
 ::myymail::vishalchovatiya@ymail.com
 ::myhotmail::vishalchovatiya@hotmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
