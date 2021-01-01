@@ -268,7 +268,7 @@ Return
 
 :B0:happy::
 If A_EndChar = %LastChar%
-	WordMenu(6,"pleased,contented,satisfied,delighted")
+	WordMenu(6,"pleased,blissful,jubilant,contented,delighted")
 Return
 
 :B0:hate::
@@ -593,12 +593,22 @@ Return
 
 :B0:boring::
 If A_EndChar = %LastChar%
-	WordMenu(7,"dull")
+	WordMenu(7,"dull,ho-hum")
+Return
+
+:B0:tired::
+If A_EndChar = %LastChar%
+	WordMenu(7,"dead on my feet,drained out,exhausted,pooped")
 Return
 
 :B0:bad::
 If A_EndChar = %LastChar%
 	WordMenu(4,"second class,god awful")
+Return
+
+:B0:OK::
+If A_EndChar = %LastChar%
+	WordMenu(4,"Aye Aye{!},Roger that{!}")
 Return
 
 :B0:small::
