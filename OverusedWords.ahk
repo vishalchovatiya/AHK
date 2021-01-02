@@ -556,6 +556,22 @@ If A_EndChar = %LastChar%
 	WordMenu(10,"savvy")
 Return
 
+
+:B0:Thank you::
+If A_EndChar = %LastChar%
+	WordMenu(10,"You rock,You are a lifesaver,What would I do without you?")
+Return
+
+:B0:No problem::
+If A_EndChar = %LastChar%
+	WordMenu(11,"Anytime,No worries,Pleasure")
+Return
+
+:B0:sorry::
+If A_EndChar = %LastChar%
+	WordMenu(10,"I didn't mean to,My mistake,I shouldn't have")
+Return
+
 :B0:cautious::
 If A_EndChar = %LastChar%
 	WordMenu(9,"wary")
