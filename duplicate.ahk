@@ -12,7 +12,7 @@ CheckForShift()
 {
     if GetKeyState("Shift") ; Check if Shift is pressed
     {
-            Duplicate()
+        Duplicate()
     }
     Else
     {

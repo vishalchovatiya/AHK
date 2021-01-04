@@ -528,7 +528,7 @@ Return
 
 :B0:wrong::
 If A_EndChar = %LastChar%
-	WordMenu(6,"incorrect,inaccurate,mistaken,erroneous,improper,unsuitable")
+	WordMenu(6,"incorrect,inaccurate,mistaken,fallacy,improper")
 Return
 
 :B0:very nice::
@@ -629,7 +629,7 @@ Return
 
 :B0:small::
 If A_EndChar = %LastChar%
-	WordMenu(6,"itsy-bitsy,compact")
+	WordMenu(6,"itsy-bitsy,tiny,compact")
 Return
 
 :B0:funny::
