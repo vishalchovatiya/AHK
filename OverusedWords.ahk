@@ -276,10 +276,10 @@ If A_EndChar = %LastChar%
 	WordMenu(5,"despise,loathe,detest,abhor,disfavor,dislike,disapprove,abominate")
 Return
 
-:B0C:have::
-If A_EndChar = %LastChar%
-	WordMenu(5,"must,need to,am compelled to,am forced to,are compelled to,are forced to,hold,possess,own,contain,acquire,gain,maintain,believe,bear,beget,occupy,absorb,fill,enjoy")
-Return
+; :B0C:have::
+; If A_EndChar = %LastChar%
+; 	WordMenu(5,"must,need to,am compelled to,am forced to,are compelled to,are forced to,hold,possess,own,contain,acquire,gain,maintain,believe,bear,beget,occupy,absorb,fill,enjoy")
+; Return
 
 :B0:help::
 If A_EndChar = %LastChar%
@@ -341,10 +341,10 @@ If A_EndChar = %LastChar%
 	WordMenu(5,"like,admire,esteem,fancy,care for,cherish,adore,treasure,worship,appreciate,savor")
 Return
 
-:B0:make::
-If A_EndChar = %LastChar%
-	WordMenu(5,"create,originate,invent,beget,form,construct,design,fabricate,manufacture,produce,build,develop,do,effect,execute,compose,perform,accomplish,earn,gain,obtain,acquire,get")
-Return
+; :B0:make::
+; If A_EndChar = %LastChar%
+; 	WordMenu(5,"create,originate,invent,beget,form,construct,design,fabricate,manufacture,produce,build,develop,do,effect,execute,compose,perform,accomplish,earn,gain,obtain,acquire,get")
+; Return
 
 :B0:mark::
 If A_EndChar = %LastChar%
