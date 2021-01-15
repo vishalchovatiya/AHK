@@ -5,6 +5,7 @@
 
 ::ahk::AutoHotkey
 ::u::you
+::ur::your
 ::i::I
 ::idk::I don't know
 ::r::are
