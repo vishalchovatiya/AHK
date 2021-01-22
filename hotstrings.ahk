@@ -18,7 +18,8 @@
 ::aka::also known as
 
 ::br::BR,{Enter}Vishal Chovatiya
-::heym::Hi ,{Enter}{Enter}{Enter}BR,{Enter}Vishal Chovatiya{left 25}
+::heym::Hi,{Enter}{Enter}{Enter}BR,{Enter}Vishal Chovatiya{Enter}{left 25}
+::rslot::Hi,{Enter}{Enter}Reserving the slot for the same.{Enter}{Enter}BR,{Enter}Vishal Chovatiya{Enter}{left 58}
 
 ::ttl::In middle of something, will talk to you soon
 ::mttl::In meeting, will come back to you soon
