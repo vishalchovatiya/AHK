@@ -493,7 +493,7 @@ Return
 
 :B0:think::
 If A_EndChar = %LastChar%
-	WordMenu(6,"judge,deem,assume,believe,consider,contemplate,reflect,mediate")
+	WordMenu(6,"consider,deem,assume,believe,consider,contemplate,reflect,mediate")
 Return
 
 :B0:trouble::
@@ -564,7 +564,12 @@ Return
 
 :B0:No problem::
 If A_EndChar = %LastChar%
-	WordMenu(11,"Anytime,No worries,Pleasure")
+	WordMenu(11,"No biggie{!},Anytime,No worries")
+Return
+
+:B0:NP::
+If A_EndChar = %LastChar%
+	WordMenu(11,"No biggie{!},Anytime,No Worries{!}")
 Return
 
 :B0:sorry::

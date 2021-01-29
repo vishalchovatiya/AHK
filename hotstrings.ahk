@@ -1,4 +1,5 @@
 #SingleInstance,Force
+SetWorkingDir, %A_ScriptDir%
 #Include %A_ScriptDir%\confidential.ahk
 
 
