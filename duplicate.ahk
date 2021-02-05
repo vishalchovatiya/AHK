@@ -22,11 +22,13 @@ CheckForShift()
 
 Duplicate()
 {
+	old_clipboard = %clipboard%		; Store clipboard
     selection := GetSelection()
-    if !selection ; if anything is not selected, then copy-paste line
+    if !selection                   ; if anything is not selected, then copy-paste line
         CopyPasteLine()
     Else
-        Send {Right}%selection% ; else paste selection on right
+        Send {Right}%selection%     ; else paste selection on right
+	clipboard = %old_clipboard%		; Restore clipboard
 }
 
 CopyPasteLine()

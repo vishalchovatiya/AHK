@@ -5,15 +5,34 @@
 Ctrl & Up::
 if GetKeyState("Shift") ; Check if Shift is pressed
 {
-	Send {HOME 2}+{END}^x{Delete}{Up}^v{Enter}{Up}
+	MoveLineUp()
 }
 return
 
 Ctrl & Down::
 if GetKeyState("Shift") ; Check if Shift is pressed
 {
-	Send {HOME 2}+{END}^x{Delete}{Down}^v{Enter}{Up}
+	MoveLineDown()
 }
 return
 
 #IfWinNotActive
+
+MoveLineUp(){
+	old_clipboard = %clipboard%		; Store clipboard
+	Send {HOME 2}+{END}				; Select line
+	Send ^x{Delete}{Up}				; Cut line
+    ClipWait, 2 					; Wait for data to fill clipboard
+	Send ^v{Enter}{Up}				; Paste line
+	clipboard = %old_clipboard%		; Restore clipboard
+}
+
+MoveLineDown(){
+	old_clipboard = %clipboard%		; Store clipboard
+	Send {HOME 2}+{END}				; Select line
+	Send ^x{Delete}{Down}			; Cut line
+    ClipWait, 2 					; Wait for data to fill clipboard
+	Send ^v{Enter}{Up}				; Paste line
+	clipboard = %old_clipboard%		; Restore clipboard
+}
+

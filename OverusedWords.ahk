@@ -181,10 +181,10 @@ If A_EndChar = %LastChar%
 	WordMenu(6,"keen,fervent,enthusiastic,involved,interested,alive to")
 Return
 
-:B0:end::
-If A_EndChar = %LastChar%
-	WordMenu(4,"stop,finish,terminate,conclude,close,halt,cessation,discontinuance")
-Return
+; :B0:end::
+; If A_EndChar = %LastChar%
+; 	WordMenu(4,"stop,finish,terminate,conclude,close,halt,cessation,discontinuance")
+; Return
 
 :B0:Explain::
 If A_EndChar = %LastChar%
