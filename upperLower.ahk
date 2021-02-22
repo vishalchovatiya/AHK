@@ -1,7 +1,7 @@
 #Include %A_ScriptDir%\common\editor.ahk
 
 
-#SingleInstance, Force
+#SingleInstance,Force
 SendMode Input
 SetWorkingDir, %A_ScriptDir%
 
@@ -9,16 +9,17 @@ SetWorkingDir, %A_ScriptDir%
 #If GetKeyState("Capslock", "P")
 
 $Up:: ; Convert text to upper
-    SetStoreCapsLockMode Off
     selection := GetSelection()
     StringUpper selection, selection
     Send %selection%
+    SetStoreCapsLockMode Off
     return
 
 $Down:: ; Convert text to lower
     selection := GetSelection()
     StringLower selection, selection
     Send %selection%
+    SetStoreCapsLockMode Off
     return
 
 Up & Down:: ; Convert text to capitalized
