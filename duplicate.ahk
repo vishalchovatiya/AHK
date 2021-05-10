@@ -5,20 +5,21 @@ SendMode Input
 SetWorkingDir, %A_ScriptDir%
 
 #IfWinNotActive ahk_exe Code.exe ; Run everywhere except on vscode
-Ctrl & d:: CheckForShift() ; Ctrl + Shift + d
+^+d:: Duplicate() ; Ctrl + Shift + d
+; ^+d:: CheckForShift() ; Ctrl + Shift + d
 #IfWinNotActive
 
-CheckForShift()
-{
-    if GetKeyState("Shift") ; Check if Shift is pressed
-    {
-        Duplicate()
-    }
-    Else
-    {
-        Send ^d
-    }
-}
+; CheckForShift()
+; {
+;     if GetKeyState("Shift") ; Check if Shift is pressed
+;     {
+;         Duplicate()
+;     }
+;     Else
+;     {
+;         Send ^d
+;     }
+; }
 
 Duplicate()
 {

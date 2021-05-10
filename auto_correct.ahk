@@ -5692,7 +5692,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::stakc::stack
 ::chacne::chance
 
-::python::Python
 ::systemc::SystemC
 ::vishal::Vishal
 ::chovatiya::Chovatiya
