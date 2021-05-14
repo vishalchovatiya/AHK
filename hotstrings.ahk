@@ -45,6 +45,7 @@ SetWorkingDir, %A_ScriptDir%
 
 ::mygmail::akshatsinghal2110@gmail.com
 ::myoutlook::akshat.singhal@infineon.com
+::mymob::7017278231
 
 
 
