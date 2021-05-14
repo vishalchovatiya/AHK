@@ -30,6 +30,9 @@ SetWorkingDir, %A_ScriptDir%
 ::exa::example
 ::ans::answer
 ::anss::answers
+::comf::comforatble
+::uncomf::uncomforatble
+::conf::confiq
 
 
 ::bcoz::because,
