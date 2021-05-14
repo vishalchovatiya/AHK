@@ -33,6 +33,12 @@ SetWorkingDir, %A_ScriptDir%
 ::comf::comforatble
 ::uncomf::uncomforatble
 ::conf::confiq
+::emp::employee
+::emps::employees
+::ppl::people
+::ppls::peoples
+::ppt::presentation
+::ppts::presentations
 
 
 ::bcoz::because,
