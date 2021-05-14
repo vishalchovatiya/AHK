@@ -5693,6 +5693,6 @@ return  ; This makes the above hotstrings do nothing so that they override the i
 ::chacne::chance
 
 ::systemc::SystemC
-::vishal::Vishal
-::chovatiya::Chovatiya
+::akshat::Akshat
+::singhal::Singhal
 ::whatsapp::WhatsApp
