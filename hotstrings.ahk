@@ -42,6 +42,8 @@ SetWorkingDir, %A_ScriptDir%
 ::prep::preparation
 ::desc::descriptive
 ::des::description
+::lil::little
+::tech::technology
 
 
 ::bcoz::because,
