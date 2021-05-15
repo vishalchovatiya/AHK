@@ -39,6 +39,9 @@ SetWorkingDir, %A_ScriptDir%
 ::ppls::peoples
 ::ppt::presentation
 ::ppts::presentations
+::prep::preparation
+::desc::descriptive
+::des::description
 
 
 ::bcoz::because,
