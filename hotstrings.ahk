@@ -53,6 +53,16 @@ SetWorkingDir, %A_ScriptDir%
 ::mttl::In meeting, will come back to you soon
 ::ttyl::talk to you later
 
+::br::BR,{Enter}Vishal Chovatiya
+::heym::Hi,{Enter}{Enter}{Enter}BR,{Enter}Vishal Chovatiya{Enter}{left 25}
+::rslot::Hi,{Enter}{Enter}Reserving the slot for the same.{Enter}{Enter}BR,{Enter}Vishal Chovatiya{Enter}{left 58}
+::pat::Hi,{Enter}{Enter}{Enter}{Enter}Purpose:{Enter}-{Space}{Space}{Enter}{Enter}{Enter}Action:{Enter}-{Space}{Space}{Enter}{Enter}{Enter}Timeline:{Enter}-{Space}{Space}{Enter}{Enter}{Enter}BR,{Enter}Vishal Chovatiya{Enter}{Enter}{left 66}
+
+::myimail::vishal.chovatiya@infineon.com
+::mygmail::visheshchovatiya@gmail.com
+::myymail::vishalchovatiya@ymail.com
+::myhotmail::vishalchovatiya@hotmail.com
+
 
 
 
