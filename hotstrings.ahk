@@ -3,6 +3,17 @@ SetWorkingDir, %A_ScriptDir%
 #Include %A_ScriptDir%\confidential.ahk
 
 
+::btw::between
+::ques::question
+::urself::yourself
+::sec::second
+::info::information
+::lang::language
+::msg::message
+::sln::solution
+::env::environment
+::comm::communication
+::exp::experience
 
 ::ahk::AutoHotkey
 ::u::you
@@ -30,6 +41,6 @@ SetWorkingDir, %A_ScriptDir%
 ::mygmail::visheshchovatiya@gmail.com
 ::myymail::vishalchovatiya@ymail.com
 ::myhotmail::vishalchovatiya@hotmail.com
-
+::mob::9555535096
 
 
