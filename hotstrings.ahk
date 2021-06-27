@@ -91,10 +91,10 @@ return
 ::ttl::In middle of something, will talk to you soon
 ::mttl::In meeting, will come back to you soon
 
-::myimail::vishal.chovatiya@infineon.com
-::mygmail::visheshchovatiya@gmail.com
-::myymail::vishalchovatiya@ymail.com
-::myhotmail::vishalchovatiya@hotmail.com
+:*:i@::vishal.chovatiya@infineon.com
+:*:g@::visheshchovatiya@gmail.com
+:*:y@::vishalchovatiya@ymail.com
+:*:hot@::vishalchovatiya@hotmail.com
 ::mob::9555535096
 
 
