@@ -98,3 +98,8 @@ return
 ::mob::9555535096
 
 
+:*:app@::
+SendInput, Approved to Move to Scheduled for Work @{Space}
+FormatTime, time, A_now, ddd d-MMM-yy hh:mm tt
+send %time%
+return
