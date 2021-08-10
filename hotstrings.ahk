@@ -99,7 +99,9 @@ return
 
 
 :*:app@::
+; Approved to Move to Scheduled for Work, <Date>, CCB present (<list of CCB members>)
 SendInput, Approved to Move to Scheduled for Work @{Space}
-FormatTime, time, A_now, ddd d-MMM-yy hh:mm tt
+FormatTime, time, A_now, ddd d-MMM-yy hh:mm tt 
 send %time%
+SendInput, {Space}IST, CCB present: Vishal Chovatiya, Neha Jain
 return
