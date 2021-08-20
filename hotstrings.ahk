@@ -2,7 +2,6 @@
 SetWorkingDir, %A_ScriptDir%
 #Include %A_ScriptDir%\confidential.ahk
 
-
 ::ques::question
 ::urself::yourself
 ::sec::second
@@ -39,7 +38,6 @@ SendInput,
 (
 Hi ,
 
-
 BR,
 Vishal Chovatiya
 
@@ -48,8 +46,8 @@ SendInput, {Up 5}{End}{Left}
 return
 
 ::rslot::
-SendInput, 
-(
+    SendInput, 
+    (
 Hi ,
 
 Reserving the slot for the same.
@@ -57,36 +55,30 @@ Reserving the slot for the same.
 BR,
 Vishal Chovatiya
 
-)
-SendInput, {Up 6}{End}{Left}
+    )
+    SendInput, {Up 6}{End}{Left}
 return
 
 ::pat::
-SendInput, 
-(
+    SendInput, 
+    (
 Hi ,
 
-
-
 Purpose:
--  
-
+- 
 
 Action:
--  
-
+- 
 
 Timeline:
--  
-
+- 
 
 BR,
 Vishal Chovatiya
 
-)
-SendInput, {Up 18}{End}{Left}
+    )
+    SendInput, {Up 18}{End}{Left}
 return
-
 
 ::ttl::In middle of something, will talk to you soon
 ::mttl::In meeting, will come back to you soon
@@ -97,11 +89,10 @@ return
 :*:hot@::vishalchovatiya@hotmail.com
 ::mob::9555535096
 
-
 :*:app@::
-; Approved to Move to Scheduled for Work, <Date>, CCB present (<list of CCB members>)
-SendInput, Approved to Move to Scheduled for Work @{Space}
-FormatTime, time, A_now, ddd d-MMM-yy hh:mm tt 
-send %time%
-SendInput, {Space}IST, CCB present: Vishal Chovatiya, Neha Jain
+    ; Approved to Move to Scheduled for Work, <Date>, CCB present (<list of CCB members>)
+    SendInput, Approved, Scheduled for Work @{Space}
+        FormatTime, time, A_now, ddd d-MMM-yy hh:mm tt 
+    send %time%
+    SendInput, {Space}IST, CCB present: Vishal Chovatiya, Neha Jain
 return
