@@ -8,6 +8,7 @@ SetWorkingDir, %A_ScriptDir%
 ::info::information
 ::lang::language
 ::msg::message
+::diff::difference
 ::sln::solution
 ::env::environment
 ::comm::communication
