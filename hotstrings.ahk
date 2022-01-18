@@ -13,6 +13,7 @@ SetWorkingDir, %A_ScriptDir%
 ::env::environment
 ::comm::communication
 ::exp::experience
+::arch::architecture
 
 ::ahk::AutoHotkey
 ::u::you
