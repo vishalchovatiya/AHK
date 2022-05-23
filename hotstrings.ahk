@@ -15,6 +15,7 @@ SetWorkingDir, %A_ScriptDir%
 ::exp::experience
 ::arch::architecture
 
+::SV::SystemVerilog
 ::ahk::AutoHotkey
 ::u::you
 ::ur::your
