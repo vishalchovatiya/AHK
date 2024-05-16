@@ -36,7 +36,41 @@ BR,
 Vishal Chovatiya
 )
 
-::heym::
+
+::feedb:: ; Interview feedback format
+    SendInput,
+    (
+Hi ,
+
+Please find my observations below:
+
+Communication:
+- Ask question when in doubt:
+- Listen actively:
+- Thought articulation & clarity:
+Problem Solving:
+- Time and Space Complexity:
+- Breaking down the big problem:
+- Using right data structure and algorithm:
+C/C{+}{+}/SystemC:
+- Core C++ concepts:
+- STL
+- D Flip Flop in SystemC:
+Other:
+- Reason for change:
+- Computer Architecture:
+
+Overall: Good/Average/Would not recommend for next round.
+
+BR,
+Vishal Chovatiya
+    )
+    SendInput, {Up 24}{End}{Left}
+return
+
+
+
+::heym:: ; General mail format
 SendInput, 
 (
 Hi ,
@@ -48,7 +82,7 @@ Vishal Chovatiya
 SendInput, {Up 5}{End}{Left}
 return
 
-::rslot::
+::rslot:: ; Meeting reschedule mail format
     SendInput, 
     (
 Hi ,
@@ -62,7 +96,7 @@ Vishal Chovatiya
     SendInput, {Up 6}{End}{Left}
 return
 
-::pat::
+::pat:: ; Work delegation mail format
     SendInput, 
     (
 Hi ,
@@ -91,11 +125,3 @@ return
 :*:y@::vishalchovatiya@ymail.com
 :*:hot@::vishalchovatiya@hotmail.com
 ::mob::9555535096
-
-:*:app@::
-    ; Approved to Move to Scheduled for Work, <Date>, CCB present (<list of CCB members>)
-    SendInput, Approved, Scheduled for Work @{Space}
-        FormatTime, time, A_now, ddd d-MMM-yy hh:mm tt 
-    send %time%
-    SendInput, {Space}IST, CCB present: Vishal Chovatiya, Neha Jain
-return
